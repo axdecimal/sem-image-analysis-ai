@@ -1,36 +1,37 @@
-# AI-Based Analysis of SEM Images
-**M.Sc. Thesis – Nanoscience & Nanotechnology, ALKU (2023)**  
-Author: Ayşe Demirkan  
-# AI-Based Analysis of SEM Images
-**M.Sc. Thesis – Nanoscience & Nanotechnology, ALKU (2023)**  
-Author: Ayşe Demirkan  
-Advisor: Assoc. Prof. Dr. İsmail Topçu
+# AI-Based Analysis of SEM Images  
+*M.Sc. Thesis – Nanoscience & Nanotechnology, ALKU (2023)*  
+**Author**: Ayşe Demirkan  
+**Advisor**: Assoc. Prof. Dr. İsmail Topcu
 
 ## 🔍 Project Overview
 This project explores the use of deep learning (CNN) for the classification of SEM (Scanning Electron Microscope) images of various nanostructured surfaces.
 
-## 🧪 Methodology
-- Convolutional Neural Networks (CNN)
-- Activation functions: ReLU + Softmax
-- Optimizers: RMSProp, Adam (lr = 0.000001)
-- Epochs: 25 and 100
-- Python libraries: Keras, Matplotlib
+## 🔬 Methodology
+- Model: Convolutional Neural Networks (CNN)  
+- Activation Functions: ReLU, Softmax  
+- Optimizers: RMSProp, Adam (lr = 0.000081)  
+- Epochs: 25 and 100  
+- Libraries: Keras, Matplotlib  
 
 ## 📊 Results
+
 | Optimizer | Epochs | Accuracy |
-|----------|--------|----------|
-| RMSProp  | 25     | 0.97     |
-| RMSProp  | 100    | 0.98     |
-| Adam     | 25     | 0.72     |
-| Adam     | 100    | 0.94     |
+|-----------|--------|----------|
+| RMSProp   | 25     | 0.97     |
+| RMSProp   | 100    | 0.98     |
+| Adam      | 25     | 0.72     |
+| Adam      | 100    | 0.94     |
+
 
 ## 🖼️ Sample SEM Images
-| Category | File |
-|----------|------|
-| Nanofibers | F1.jpg |
-| Porous Sponge | P1.jpg |
+
+| Category        | File     |
+|-----------------|----------|
+| Nanofibers      | F1.jpg   |
+| Porous Sponge   | P1.jpg   |
 | MEMS / Electrodes | M1.jpg |
-| Particles | P32.jpg |
+| Particles       | P32.jpg  |
+
 
 ## 📂 Project Structure
 
@@ -60,6 +61,11 @@ This project explores the use of deep learning (CNN) for the classification of S
 | Porous Sponge | P1.jpg |
 | MEMS / Electrodes | M1.jpg |
 | Particles | P32.jpg |
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Contact
+For questions or collaboration, please contact: [demirkan25@itu.edu.tr]
 
 ## 📂 Project Structure
 ## 📚 References / Kaynaklar
